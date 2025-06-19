@@ -1,0 +1,10 @@
+[package]
+name = "image_classifier_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.16.0", default-features = false, features = ["tch"] }
+tch = { version = "0.14.0", features = ["libtorch", "cuda"] }
+image = { version = "0.24.9", features = ["png", "jpeg"] }
+serde = { version = "1.0.192", default-features = false, features = ["derive", "alloc"] }
