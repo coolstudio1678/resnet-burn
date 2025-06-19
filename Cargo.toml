@@ -6,7 +6,7 @@ resolver = "2"
 
 members = [
     "resnet",
-    "examples/*",
+    "examples/inference",
 ]
 
 [workspace.package]
